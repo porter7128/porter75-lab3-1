@@ -7,7 +7,7 @@ pipeline {
         DOCKER_IMAGE = 'porter75'                                                 // <------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/porter7128/porter75-lab3-1'                   // <------change this
-        KUBECONFIG = credentials('porter75-fl26')                                             // <------change this
+        KUBECONFIG = credentials('porter75-225')                                             // <------change this
     }
 
     stages {
